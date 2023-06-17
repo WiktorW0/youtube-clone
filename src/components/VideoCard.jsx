@@ -14,7 +14,7 @@ const VideoCard = ({ video: { video: { author, badges, lengthSeconds, stats, thu
           sx={{ width: { xs: '280px', sm: '356px', md: '330px' }, height: '180px', borderRadius: '20px', }}
         />
       </Link>
-      <CardContent disableSpacing sx={{ backgroundColor: '#141414', width: { xs: '100%', sm: '356px', md: '330px' }, p: 0, pt: 2 }}>
+      <CardContent sx={{ backgroundColor: '#141414', width: { xs: '100%', sm: '356px', md: '330px' }, p: 0, pt: 2 }}>
         <Stack direction='row'>
           {author?.title && <Link to={author?.channelId ? `/channel/${author?.channelId}` : demoChannelUrl}>
             <CardMedia

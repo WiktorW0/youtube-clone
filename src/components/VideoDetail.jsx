@@ -30,11 +30,11 @@ const VideoDetail = () => {
   if (!videoDetail) return 'Loading...'
   if (!videos) return 'Loading...'
 
-  const { publishedDate, stats: { likes, views }, description, author, title, channelId } = videoDetail
+  const { publishedDate, stats: { likes, views }, description, author, title } = videoDetail
 
   const publishedTime = new Date(publishedDate)
   const publishedTimeString = publishedTime.toDateString()
-
+  console.log(videoDetail)
   return (
     <Box sx={{ ml: { xs: 1, sm: 1, md: 10 }, mr: { xs: 1, sm: 1, md: 10 } }}>
       <Stack direction={{ xs: 'column', md: 'row' }} gap={'20px'}   >
@@ -52,7 +52,7 @@ const VideoDetail = () => {
               {title}
             </Typography>
             <Stack direction='row' justifyContent='space-between' color='white' py={1} px={2} sx={{ borderBottom: '1px solid #3d3d3d', mb: 1 }}>
-              <Link to={`/channel/${channelId}`}>
+              <Link to={`/channel/${author?.channelId}`}>
                 <Stack direction='row' alignItems='center'>
                   <CardMedia
                     component='img'
