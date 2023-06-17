@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
+
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(163, 0, 0);
+  border-radius: 10px;
+  height: 200px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+.category-btn {
+  font-family: "Karla";
+  font-weight: 700;
+  font-size: 1em !important;
+  text-transform: capitalize;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  cursor: pointer;
+  background: transparent;
+  outline: none;
+  border: none;
+  padding: 7px 15px;
+  margin: 10px 0px;
+  border-radius: 20px;
+  transition: all 0.3s ease;
+}
+
+.category-btn:hover {
+  background-color: #FC1503 !important;
+  color: white !important;
+}
+
+.category-btn:hover span {
+  color: white !important;
+  opacity: 1 !important;
+}
+
+
+.search-bar {
+  border: none;
+  outline: none;
+  width: 350px;
+}
+
+
+
+@media screen and (max-width: 900px) {
+  .category-btn {
+    margin: 10px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .scroll-horizontal {
+    overflow: auto !important;
+  }
+}
