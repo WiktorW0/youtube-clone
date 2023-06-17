@@ -42,7 +42,7 @@ const Navbar = () => {
         >
           <MenuIcon sx={{ fontSize: 28 }} />
         </IconButton>
-        <Link to='/' style={{ display: 'flex', alignItems: 'center' }}>
+        <Link to='/youtube-clone' style={{ display: 'flex', alignItems: 'center' }}>
           <img src={logo} alt="logo" width='110px' />
         </Link>
       </Box>
