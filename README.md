@@ -35,12 +35,12 @@ It was also first time for me to try and build full responsive design and using 
 <img src="https://i.imgur.com/nmp2dA3.png" height="80%" width="80%" alt="YouTube clone"/>
 <br />
   
-<img src="https://i.imgur.com/DAakgWv.png" height="20%" width="20%" alt="YouTube clone"/>
+<img src="https://i.imgur.com/DAakgWv.png" height="40%" width="40%" alt="YouTube clone"/>
 <br />
-<img src="https://i.imgur.com/vn8Fqnp.png" height="20%" width="20%" alt="YouTube clone"/>
+<img src="https://i.imgur.com/vn8Fqnp.png" height="40%" width="40%" alt="YouTube clone"/>
 <br />
-<img src="https://i.imgur.com/6VFprN5.png" height="20%" width="20%" alt="YouTube clone"/>
+<img src="https://i.imgur.com/6VFprN5.png" height="40%" width="40%" alt="YouTube clone"/>
 <br />
-<img src="https://i.imgur.com/05cxt2W.png" height="20%" width="20%" alt="YouTube clone"/>
+<img src="https://i.imgur.com/05cxt2W.png" height="40%" width="40%" alt="YouTube clone"/>
 <br />
 
