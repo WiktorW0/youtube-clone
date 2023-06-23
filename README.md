@@ -1,70 +1,46 @@
-# Getting Started with Create React App
+# YouTube clone
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[Demo Page](https://wiktorw0.github.io/youtube-clone/) (high latency ~ 2000ms)
 
-## Available Scripts
+***YouTube clone is inspired by one of many iteration of this project shown on [JavaScript Mastery](https://www.youtube.com/@javascriptmastery) channel.***
+</br>
 
-In the project directory, you can run:
+***I build it from scratch myself to test my skills in React and to learn something new like React Router and MUI. Many things have been changed in design and structure including source of the data (API) to make the project look more like the original Youtube.
+It was also first time for me to try and build full responsive design and using MUI helped a lot. Using axios to fetch data from API was also new experience to me.***
+</br>
+***I've had all sorts of problems while building this app but for now only remaining one is high latency when fetching from API. But im using this one because it gives a lot more information than the other one with lower latency.***
 
-### `npm start`
+***By no means this project is perfect. As soon as I learn something new and have a new idea, I come back to this project and make changes and upgrades.***
+ 
+## ⚒️ Built with:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- React - JS library
+- MUI - React component library
+- Axios
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 📷 Screenshots:
+<p align="center">
+<img src="https://i.imgur.com/3fOGzDe.png" height="80%" width="80%" alt="YouTube clone"/>
+<br />
+<img src="https://i.imgur.com/lFatYKM.png" height="80%" width="80%" alt="YouTube clone"/>
+<br />
+<img src="https://i.imgur.com/fbUHKxl.png" height="80%" width="80%" alt="YouTube clone"/>
+<br />
+<img src="https://i.imgur.com/kOoebwo.png" height="80%" width="80%" alt="YouTube clone"/>
+<br />
+<img src="https://i.imgur.com/4GCpQi4.png" height="80%" width="80%" alt="YouTube clone"/>
+<br />
+<img src="https://i.imgur.com/9McDjcO.png" height="80%" width="80%" alt="YouTube clone"/>
+<br />
+<img src="https://i.imgur.com/nmp2dA3.png" height="80%" width="80%" alt="YouTube clone"/>
+<br />
+  
+<img src="https://i.imgur.com/DAakgWv.png" height="20%" width="20%" alt="YouTube clone"/>
+<br />
+<img src="https://i.imgur.com/vn8Fqnp.png" height="20%" width="20%" alt="YouTube clone"/>
+<br />
+<img src="https://i.imgur.com/6VFprN5.png" height="20%" width="20%" alt="YouTube clone"/>
+<br />
+<img src="https://i.imgur.com/05cxt2W.png" height="20%" width="20%" alt="YouTube clone"/>
+<br />
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
